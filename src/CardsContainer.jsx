@@ -7,37 +7,12 @@ import RestaurantCard from './RestaurantCard.jsx';
 const CardsContainer = () => {
   return(
     <Container>
-      <Row>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
-        <Col sm={4}>
-          <RestaurantCard />
-        </Col>
+      <Row xs={1} md={3}>
+        {Array.from({ length: 10 }).map((_, idx) => (
+          <Col>
+            <RestaurantCard />
+          </Col>
+        ))}  
       </Row>
     </Container>
   )

@@ -8,11 +8,13 @@ import CardsContainer from './CardsContainer.jsx';
 
 const App = () => {
   return (
-    <div className='lg' >
-      <Row >
-        <Navbar />
-        <CardsContainer />
-      </Row>
+    <div>
+      <div className='lg' >
+        <Row >
+          <Navbar />
+        </Row>
+      </div>
+    <CardsContainer />
     </div>
   );
 };
