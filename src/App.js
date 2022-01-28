@@ -3,7 +3,7 @@ import './index.css';
 // import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'
 import Navbar from './Navbar.jsx'
-import RestaurantCard from './RestaurantCard.jsx';
+import CardsContainer from './CardsContainer.jsx';
 
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
     <div className='lg' >
       <Row >
         <Navbar />
-        <RestaurantCard />
+        <CardsContainer />
       </Row>
     </div>
   );
