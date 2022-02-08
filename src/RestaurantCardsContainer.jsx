@@ -29,7 +29,9 @@ class RestaurantCardsContainer extends React.Component {
         <Row xs={1} md={3}>
         {
           restaurants.map(restaurant => (
-            <RestaurantCard name={restaurant.restaurantName} address={restaurant.address} hours={restaurant.hours} />
+            <Col>
+              <RestaurantCard name={restaurant.restaurantName} address={restaurant.address} hours={restaurant.hours} />
+            </Col>
           ))
         }
         </Row>
