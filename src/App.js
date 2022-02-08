@@ -2,7 +2,6 @@ import React from 'react';
 import './index.css';
 import Row from 'react-bootstrap/Row';
 import Navbar from './Navbar.jsx';
-import CardsContainer from './CardsContainer.jsx';
 import RestaurantCardsContainer from './RestaurantCardsContainer.jsx';
 
 const App = () => {
@@ -14,7 +13,6 @@ const App = () => {
         </Row>
       </div>
       <RestaurantCardsContainer />
-      <CardsContainer />
     </div>
   );
 };
