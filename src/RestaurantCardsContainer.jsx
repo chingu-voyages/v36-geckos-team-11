@@ -29,14 +29,9 @@ class RestaurantCardsContainer extends React.Component {
         <Row xs={1} md={3}>
         {
           restaurants.map(restaurant => (
-            <li>{ restaurant.restaurantName }</li>
+            <RestaurantCard name={restaurant.restaurantName} address={restaurant.address} hours={restaurant.hours} />
           ))
         }
-          {/* {Array.from({ length: 10 }).map((_, idx) => (
-            <Col>
-              <RestaurantCard />
-            </Col>
-          ))} */}
         </Row>
       </Container>
     );
