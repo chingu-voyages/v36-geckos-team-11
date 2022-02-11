@@ -1,19 +1,18 @@
 import React from 'react';
 import './index.css';
-// import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Navbar from './components/Navbar.jsx';
-import CardsContainer from './CardsContainer.jsx';
+import RestaurantCardsContainer from './RestaurantCardsContainer.jsx';
 
 const App = () => {
   return (
     <div>
-      <div className='lg'>
+      <div className="lg">
         <Row>
           <Navbar />
         </Row>
       </div>
-      <CardsContainer />
+      <RestaurantCardsContainer />
     </div>
   );
 };
