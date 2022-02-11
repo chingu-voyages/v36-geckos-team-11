@@ -8,18 +8,28 @@ class RestaurantCardsContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      restaurants: []
+      restaurants: [],
     };
   }
 
   componentDidMount() {
     fetch('https://learnreact.avicndugu.repl.co/restaurants.json')
-      .then(res => res.json())
-      .then(
-        data => this.setState({
-          restaurants: data.restaurants
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw Error(response.status);
+        }
+      })
+      .then((data) =>
+        this.setState({
+          restaurants: data.restaurants,
         })
-      );
+      )
+      .catch((error) => {
+        // Handle the error
+        console.log(error);
+      });
   }
 
   render() {
@@ -27,13 +37,16 @@ class RestaurantCardsContainer extends React.Component {
     return (
       <Container>
         <Row xs={1} md={3}>
-        {
-          restaurants.map((restaurant, index) => (
+          {restaurants.map((restaurant, index) => (
             <Col>
-              <RestaurantCard key={index} name={restaurant.restaurantName} address={restaurant.address} hours={restaurant.hours} />
+              <RestaurantCard
+                key={index}
+                name={restaurant.restaurantName}
+                address={restaurant.address}
+                hours={restaurant.hours}
+              />
             </Col>
-          ))
-        }
+          ))}
         </Row>
       </Container>
     );
