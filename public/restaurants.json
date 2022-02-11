@@ -1,0 +1,116 @@
+[
+  {
+    "restaurantName": "Sid's Cafe",
+    "address": "3000 S Paradise Rd Westgate Las Vegas Resort & Casino, Las Vegas, NV 89109",
+    "starRating": 4,
+    "hours": "7am–2pm"
+  },
+  {
+    "restaurantName": "Primal Steakhouse",
+    "address": "3528 S Maryland Pkwy, Las Vegas, NV 89169-3054",
+    "starRating": 5,
+    "hours": "5am–10pm"
+  },
+  {
+    "restaurantName": "Fresco Italiano",
+    "address": "3000 Paradise Road, Las Vegas, NV 89109",
+    "starRating": 4.5,
+    "hours": "5am–10pm"
+  },
+  {
+    "restaurantName": "Benihana",
+    "address": "3000 Paradise Road Westgate Las Vegas Resort & Casino, Las Vegas, NV 89109",
+    "starRating": 4.5,
+    "hours": "5am–10pm"
+  },
+  {
+    "restaurantName": "Kabuto",
+    "address": "5040 Spring Mountain Rd, Las Vegas, NV 89146-8716",
+    "starRating": 5,
+    "hours": "5:30am–9pm"
+  },
+  {
+    "restaurantName": "EDO Gastro Tapas & Wine",
+    "address": "3400 S Jones Blvd Suite 11A, off DI and Spring Mountain, Las Vegas, NV 89146-6785",
+    "starRating": 5,
+    "hours": "5am–9pm"
+  },
+  {
+    "restaurantName": "Mr. Mamas",
+    "address": "5693 S Jones Blvd Ste 106, Las Vegas, NV 89118-1965",
+    "starRating": 4.5,
+    "hours": "7am–3pm"
+  },
+  {
+    "restaurantName": "SOHO Japanese Restaurant",
+    "address": "7377 S Jones Blvd Ste 116, Las Vegas, NV 89139-0547",
+    "starRating": 4.5,
+    "hours": "12am–9pm"
+  },
+  {
+    "restaurantName": "Senor Frog's Las Vegas",
+    "address": "3300 Las Vegas Blvd S, Las Vegas, NV 89109-8916",
+    "starRating": 4.5,
+    "hours": "11am–10pm"
+  },
+  {
+    "restaurantName": "Chin Chin",
+    "address": "3790 Las Vegas Blvd S New York-New York Hotel & Casino, Las Vegas, NV 89109-4338",
+    "starRating": 4.5,
+    "hours": "8am–11pm"
+  },
+  {
+    "restaurantName": "Weera Thai Restaurant",
+    "address": "3839 W Sahara Ave Suite 7-9, Las Vegas, NV 89102-0540",
+    "starRating": 4.5,
+    "hours": "11am–10pm"
+  },
+  {
+    "restaurantName": "Margaritaville Restaurant- Las Vegas",
+    "address": "3555 Las Vegas Blvd S Flamingo Hotel and Casino, Las Vegas, NV 89109",
+    "starRating": 4,
+    "hours": "8am–10pm"
+  },
+  {
+    "restaurantName": "Arawan Thai Bistro and Dessert",
+    "address": "953 E Sahara Ave Suite E-14, Las Vegas, NV 89104-3005",
+    "starRating": 4.5,
+    "hours": "11am–10pm"
+  },
+  {
+    "restaurantName": "Omelet House",
+    "address": "2160 W Charleston Blvd, Las Vegas, NV 89102-2243",
+    "starRating": 4.5,
+    "hours": "7am–3pm"
+  },
+  {
+    "restaurantName": "Italian American Club",
+    "address": "2333 E Sahara Ave, Las Vegas, NV 89104-4110",
+    "starRating": 4.5,
+    "hours": "5pm–10am"
+  },
+  {
+    "restaurantName": "Crepe Expectations",
+    "address": "9500 S Eastern Ave Ste 180, Las Vegas, NV 89123-8016",
+    "starRating": 4.5,
+    "hours": "8am–3pm"
+  },
+  {
+    "restaurantName": "Le Cirque",
+    "address": "3600 Las Vegas Blvd S, Las Vegas, NV 89109-4303",
+    "starRating": 4.5,
+    "hours": "5am–10pm"
+  },
+  {
+    "restaurantName": "Lobster ME",
+    "address": "3663 Las Vegas Blvd S Suite 435, Las Vegas, NV 89109-1920",
+    "starRating": 4,
+    "hours": "10am–10pm"
+  },
+  {
+    "restaurantName": "Juan's Flaming Fajitas & Cantina",
+    "address": "9640 W Tropicana Ave Ste 101, Las Vegas, NV 89147-2604",
+    "starRating": 4.5,
+    "hours": "11am–10pm"
+  }
+]
