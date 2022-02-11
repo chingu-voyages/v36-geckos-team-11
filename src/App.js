@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import Row from 'react-bootstrap/Row';
-import Navbar from './Navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 import RestaurantCardsContainer from './RestaurantCardsContainer.jsx';
 
 const App = () => {
