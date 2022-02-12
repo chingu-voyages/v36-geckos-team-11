@@ -14,7 +14,7 @@ class RestaurantCardsContainer extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://learnreact.avicndugu.repl.co/resstaurants.json')
+    fetch('https://learnreact.avicndugu.repl.co/restaurants.json')
       .then((response) => {
         if (response.ok) {
           return response.json();
@@ -45,10 +45,8 @@ class RestaurantCardsContainer extends React.Component {
         <Container>
           <Row xs={1} md={3}>
             {restaurants.map((restaurant, index) => (
-              <Col>
-                <p>{error}</p>
+              <Col key={index}>
                 <RestaurantCard
-                  key={index}
                   name={restaurant.restaurantName}
                   address={restaurant.address}
                   hours={restaurant.hours}
