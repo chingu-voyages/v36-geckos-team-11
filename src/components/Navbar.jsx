@@ -1,30 +1,26 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import '../index.css';
-import { Container, Nav, FormControl, Form } from 'react-bootstrap';
+import { Container, Nav, FormControl, Form, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const Navigationbar = () => {
   return (
-    <Navbar>
-      <Container fluid>
-        <Navbar.Brand href='#'>Food ordering app</Navbar.Brand>
-        <Navbar.Collapse id='navbarScroll'>
-          <Nav
-            className='me-auto my-2 my-lg-0'
-            style={{ maxHeight: '100px' }}
-          ></Nav>
-          <Form className='d-flex'>
-            <FontAwesomeIcon icon={faSearch} />
+    <Navbar bg="light" expand="lg">
+      <Container className="py-3">
+        <Navbar.Brand href="#">Food Ordering App</Navbar.Brand>
+          <Form className="d-flex">
             <FormControl
-              type='search'
-              placeholder='Search'
-              className='me-2'
-              aria-label='Search'
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
             />
+            <Button variant="outline-success">
+              <FontAwesomeIcon icon={faSearch} />
+            </Button>
           </Form>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
