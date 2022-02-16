@@ -14,9 +14,7 @@
 }
 
 .navbar-light a.navbar-brand {
-   font-weight: 700;
-   font-size: 48px;
-   line-height: 72px;
-   letter-spacing: 1px;
+   font-weight: 600;
+   font-size: 1.7em;
    color: #000;
 }
